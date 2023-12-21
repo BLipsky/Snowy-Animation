@@ -2,6 +2,8 @@ body {
     background-repeat: no-repeat;
     size: 100%;
     background-color:rgb(60, 60, 99);
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .customground {
