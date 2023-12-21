@@ -124,16 +124,20 @@ body {
     width: 75px;
     height: 125x;
     position: relative;
-    top: 590px;
+    top: -100px;
     margin-left: 30vw;
-    z-index: 900;
+    z-index: 0;
+    animation: imgclass7-fall 25s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes imgclass7-fall {
-100% {
-    transform: translateY(100vw);
-} 
-
+    0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(110vh);
+      }
 }
 
 
