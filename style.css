@@ -1,3 +1,74 @@
+body {
+    background-repeat: no-repeat;
+    size: 100%;
+    background-color:rgb(60, 60, 99);
+}
+
+.customground {
+    background-color: rgb(230, 235, 255);
+    position: fixed;
+    width: 100%;
+    top: 800px;
+    height: 150px;
+    border-top: 1px solid white;
+    box-shadow: 2vw 2vw 2vw 2vw #fff;
+    z-index: 100;
+}
+
+.customground1 {
+    background-color: rgb(230, 235, 255);
+    position: fixed;
+    width: 60%;
+    top: 700px;
+    height: 200px;
+    border: 1px solid white;
+    box-shadow: 2vw 2vw 2vw 2vw #fff;
+    margin-left: 54vw;
+    border-radius: 100vw;
+    z-index: 100;
+}
+.customground2 {
+    background-color: rgb(230, 235, 255);
+    position: fixed;
+    width: 80%;
+    top:800px;
+    height: 200px;
+    margin-left: 45vw;
+    z-index: 200;
+}
+.customground3 {
+    background-color: rgb(230, 235, 255);
+    position: fixed;
+    width: 15%;
+    top: 675px;
+    height: 300px;
+    border: 1px solid white;
+    box-shadow: 2vw 1vw 8vw 2vw #fff;
+    border-radius: 0vw 100px;
+    z-index: 90;
+}
+.customground4 {
+    background-color: rgb(230, 235, 255);
+    position: fixed;
+    width: 14.8%;
+    top:760px;
+    height: 200px;
+    z-index: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .snowflake {
   color: #fff;
   font-size: 1em;
@@ -120,3 +191,20 @@
   left: 65%;
   animation-delay: 2.5s;
 }
+.snowflake:nth-of-type(1) {
+    left: 65%;
+    animation-delay: 2.5s;
+  }
+  .snowflake:nth-of-type(12) {
+    left: 65%;
+    animation-delay: 2.5s;
+  }
+  .snowflake:nth-of-type(13) {
+    left: 65%;
+    animation-delay: 2.5s;
+  }
+  .snowflake:nth-of-type(14) {
+    left: 65%;
+    animation-delay: 2.5s;
+  }
+      
