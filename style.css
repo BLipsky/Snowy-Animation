@@ -55,14 +55,86 @@ body {
     height: 200px;
     z-index: 200;
 }
+ 
+.imgclass {
+    width: 390px;
+    height: 300px;
+    position: absolute;
+    top: 500px;
+    margin-left: 60vw;
+    z-index: 1000;
 
+}
 
+.imgclass1 {
+    width: 75px;
+    height: 150px;
+    position: absolute;
+    top: 675px;
+    margin-left: 20vw;
+    z-index: 1000;
+}
 
+.imgclass2 {
+    width: 75px;
+    height: 150px;
+    position: absolute;
+    top: 550px;
+    margin-left: 3vw;
+    z-index: 1000;
+}
 
+.imgclass3 {
+    width: 75px;
+    height: 150px;
+    position: absolute;
+    top: 699px;
+    margin-left: 38vw;
+    z-index: 1000;
+}
 
+.imgclass4 {
+    width: 75px;
+    height: 150px;
+    position: absolute;
+    top: 669px;
+    margin-left: 45vw;
+    z-index: 1000;
+}
 
+.imgclass5 {
+    width: 75px;
+    height: 150px;
+    position: absolute;
+    top: 730px;
+    margin-left: 30vw;
+    z-index: 1000;
+}
 
+.imgclass6 {
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    top: 590px;
+    margin-left: 90vw;
+    z-index: 1000;
+}
 
+.imgclass7 {
+    width: 75px;
+    height: 125x;
+    position: relative;
+    top: 590px;
+    margin-left: 30vw;
+    z-index: 900;
+}
+
+@keyframes imgclass7-fall {
+100% {
+    transform: translateY(100vw);
+} 
+
+}
 
 
 
